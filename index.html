@@ -14,20 +14,31 @@
     <!-- prefixfree : css3 지원, 인터넷에 서비스 들어갈때 주석 해제-->
     <!-- <script type="text/javascript" src="js/prefixfree.min.js"></script> -->
     <!-- normalize : css3 초기화-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
+    <div class="modal">
+        <div class="modal-cont">
+            <p>이사이트는 크롬에 최적화 되어 있습니다.<br>
+                <br>
+                곽혜영 개인 포트폴리오 제작용 입니다.
+            </p>
+            <button class="modal-close">
+                <i class="fas fa-window-close"></i>
+            </button>
+        </div>
+    </div>
+
     <div class="wrap">
         <!-- 상단 -->
         <header class="header">
             <div class="container">
                 <a href="index.html" class="logo">STX 건설</a>
-                <!-- 주메뉴 -->
-                <div class="gnb">
-                </div>
-                <!-- //주메뉴 -->
                 <!-- 언어메뉴 -->
                 <div class="language">
                     <ul class="language-list clearfix">
@@ -37,6 +48,70 @@
                 </div>
                 <!-- //언어메뉴 -->
             </div>
+            <!-- 주메뉴 -->
+            <div class="gnb">
+                <ul class="depth1">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">사업분야</a></li>
+                    <li><a href="#">사회공헌</a></li>
+                    <li><a href="#">홍보센터</a></li>
+                    <li><a href="#">고객지원</a></li>
+                    <li><a href="#">채용정보</a></li>
+                </ul>
+                <div class="depth2">
+                    <ul class="submenu">
+                        <li>
+                            <ul class="depth2-menu">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">STX건설</a></li>
+                                <li><a href="#">기업문화</a></li>
+                                <li><a href="#">STX건설연혁</a></li>
+                                <li><a href="#">조직안내</a></li>
+                                <li><a href="#">윤리경영</a></li>
+                                <li><a href="#">안전·환경·품질경영</a></li>
+                                <li><a href="#">찾아오시는길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="depth2-menu">
+                                <li><a href="#">건축사업</a></li>
+                                <li><a href="#">주택사업</a></li>
+                                <li><a href="#">토목사업</a></li>
+                                <li><a href="#">플랜트/공작기계사업</a></li>
+                                <li><a href="#">해외사업</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="depth2-menu">
+                                <li><a href="#">나눔의생각</a></li>
+                                <li><a href="#">주요활동분야</a></li>
+                                <li><a href="#">활동현황</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="depth2-menu">
+                                <li><a href="#">홍보동영상</a></li>
+                                <li><a href="#">홍보브로슈어</a></li>
+                                <li><a href="#">STX건설뉴스</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="depth2-menu">
+                                <li><a href="#">자주묻는질문</a></li>
+                                <li><a href="#">고객문의</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="depth2-menu">
+                                <li><a href="#">채용안내</a></li>
+                                <li><a href="#">채용공고</a></li>
+                                <li><a href="#">채용FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //주메뉴 -->
+
         </header>
         <!-- 비주얼 -->
         <section class="visual">
